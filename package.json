@@ -1,0 +1,35 @@
+{
+  "name": "blockchain-greeting",
+  "version": "1.0.0",
+  "description": "TODO",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badgerblockchain/blockchain-greeting.git"
+  },
+  "scripts": {
+    "format": "npx prettier --write ."
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.6",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.8",
+    "prettier": "^2.6.0"
+  },
+  "dependencies": {
+    "@ethersproject/experimental": "^5.6.2",
+    "@metamask/detect-provider": "^1.2.0",
+    "@metamask/onboarding": "^1.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/badgerblockchain/blockchain-greeting/issues"
+  },
+  "homepage": "https://github.com/badgerblockchain/blockchain-greeting#readme",
+  "main": "hardhat.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}
